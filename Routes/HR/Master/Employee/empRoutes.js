@@ -2,7 +2,6 @@ import express from 'express';
 import db from '../../../db.js';
 const router = express.Router();
 
-
 // Middleware to parse JSON bodies
 router.use(express.json());
 
